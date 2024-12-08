@@ -733,8 +733,6 @@ a {
   display: grid;
   align-content: center;
   gap: 2rem;
-  padding: 1rem;
-  margin: 1rem;
   border-radius: 4rem;
   font-family: "Poppins", sans-serif;
   color: var(--color);
