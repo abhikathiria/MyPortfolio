@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XYSRPJ09EG" loading="lazy"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XYSRPJ09EG');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Passionate web developer and UI/UX designer creating beautiful and user-focused applications. Explore my portfolio and resume for projects involving HTML, CSS, JavaScript, React, NodeJS, and more.">
+    <meta name="keywords" content="web development, UI/UX design, HTML, CSS, JavaScript, React, NodeJS, Front-end, Back-end, Database, Figma, Portfolio, Resume, Abhi Kathiriya">
+    <meta name="author" content="Abhi Kathiriya">
+
+    <!-- Open Graph Tags (For Social Media): -->
+    <meta property="og:title" content="Abhi Kathiriya">
+    <meta property="og:description" content="I design beautiful, user-focused applications with a passion for quality.">
+    
+
+    <title>Abhi Kathiriya</title>
+
+    <!-- main style CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/userAsset/logo-trans.webp">
+    
+</head>
+<body>
+      <!-- Preloader -->
+      <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <div id="wrapper" class="content">
+        <div id="home" class="container">
+
+          <!-- navbar section -->
+          <div class="navbar animationZ">
+
+            <div class="logo-container">
+                <a href="./index.html"> <img src="./images/userAsset/logo-trans.webp" loading="lazy" class="logo" alt="logo-trans"></a>
+                <div class="logo-text">bhi Kathiriya</div>
+            </div>
+            <div class="nav-toggle" onclick="toggleNav()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="nav-items">
+            <div><a href="./index.html#projects">Projects</a></div>
+            <div><a href="./index.html#skills">Skills</a></div>
+            <div><a href="./resume.html" >Resume </a></div>
+            <div><a href="./index.html#contactme">Contact Me</a></div>
+            </nav>
+          </div>
+
+            <!-- hero section -->
+            <div class="resume-section">
+                
+                    <img src="./images/resume.png" class="img-container" loading="lazy" alt="resume">
+                    <div class="resume-links">
+                        <a href="mailto:kathiriaabhistdy@gmail.com"><div class="btn-pink-resume " id="btn">Mail me</div></a>
+                        <a download href="./images/resume.pdf"><div class="btn-pink-resume" id="btn">Download</div></a>
+                        
+                      </div>
+                      <a href="./index.html" ><div class="back-to-home animationZ">Back to home <img class="arrow" src="./images/userAsset/arrow.webp" loading="lazy" alt="arrow"></div></a>
+                
+            </div>
+            
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-faded-text">Abhi Kathiriya</div>
+
+              <div class="link-wrapper animationZ">
+                <div>
+                  <a translate="no" href="/" >Abhi Kathiriya | © 2024 - Connecting Ideas, Building Experiences</a>
+                </div>
+              </div>
+
+              <div class="icon-wrapper animationZ">
+                  <a href="https://www.linkedin.com/in/abhikathiriya/"><i class="fa-brands fa-linkedin icon tooltip">
+                    <span class="tooltiptext">linkedIn</span>
+                  </i></a>
+                  <a href="https://github.com/abhikathiria"><i class="fa-brands fa-github icon tooltip">
+                    <span class="tooltiptext">GitHub</span>
+                  </i></a>
+                  <a href="https://www.instagram.com/_abhikathiriya/"><i class="fa-brands fa-instagram icon tooltip">
+                    <span class="tooltiptext">Instagram</span>
+                  </i></a>
+                  <a href="mailto:kathiriaabhistdy@gmail.com"><i class="fa-regular fa-envelope icon tooltip">
+                    <span class="tooltiptext">G-Mail</span>
+                  </i></a>
+                </div>
+
+            </div>
+          </div>
+        </footer>
+    </div>
+    
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+      // Preloader
+       document.addEventListener("DOMContentLoaded", function () {
+      // Hide the preloader when the content is fully loaded
+      setTimeout(function () {
+          document.querySelector(".preloader").style.display = "none";
+          document.querySelector(".content").style.display = "block";
+          }, 1000); // Adjust the duration as needed
+      });
+  </script>
+</body>
+</html>
